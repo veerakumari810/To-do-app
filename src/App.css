@@ -1,0 +1,80 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  height: 100vh;
+}
+
+/* Center container */
+.container {
+  width: 320px;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  margin: 100px auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input */
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* Add button */
+button {
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px;
+  border: none;
+  background: #667eea;
+  color: white;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5a67d8;
+}
+
+/* List */
+ul {
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* Task item */
+li {
+  list-style: none;
+  background: #f7f7f7;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Delete button */
+li button {
+  width: auto;
+  padding: 4px 8px;
+  background: #e53e3e;
+  font-size: 14px;
+}
+
+li button:hover {
+  background: #c53030;
+}
